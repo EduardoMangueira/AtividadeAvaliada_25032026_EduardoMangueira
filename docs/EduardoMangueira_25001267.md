@@ -110,6 +110,10 @@ A interface deve ser otimizada para uso rápido, permitindo que a maioria das op
 Para **cada caso de uso**, utilize o template abaixo:
 ---
 
+- Diagrama Geral:
+
+  <img width="748" height="664" alt="image" src="https://github.com/user-attachments/assets/edfcb665-311d-474a-a225-33a22b5a75fe" />
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC01 — Realizar Venda de Produto
@@ -169,6 +173,9 @@ Fluxos Alternativos / Exceções
 Relacionamentos
 - Extend: UC01 
 
+<img width="422" height="422" alt="image" src="https://github.com/user-attachments/assets/879a6658-ab84-430d-be2e-aa72310cb922" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC03 — Cadastrar/Atualizar Cliente
@@ -194,6 +201,10 @@ Fluxos Alternativos / Exceções
 
 Relacionamentos
 - Extend: UC01
+
+<img width="446" height="477" alt="image" src="https://github.com/user-attachments/assets/d9acf1d2-b5c2-43f9-bb0c-6017b569622f" />
+
+  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC04 — Consultar Estoque em Tempo Real
@@ -217,6 +228,10 @@ Fluxos Alternativos / Exceções
 
 Relacionamento:
 - Dentro da UC01, mas independente.
+
+<img width="517" height="367" alt="image" src="https://github.com/user-attachments/assets/8ce0c609-da3c-4680-bc04-58ae7c201cab" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC05 — Registrar Venda a Prazo
@@ -240,6 +255,10 @@ Fluxos Alternativos / Exceções
 
 Relacionamento:
 - Extend: UC01
+
+<img width="261" height="413" alt="image" src="https://github.com/user-attachments/assets/5cf28f44-2114-4b81-be9f-352dea3422ff" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC06 — Dar Entrada em Mercadoria (Compra)
@@ -265,6 +284,9 @@ Fluxos Alternativos / Exceções
 
 Relacionamento:
 Include: UC09
+
+<img width="270" height="358" alt="image" src="https://github.com/user-attachments/assets/41db4158-51a3-4a46-9fba-d19a1c9e4da0" />
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC07 — Ajustar Estoque Manualmente
@@ -290,6 +312,10 @@ Fluxos Alternativos / Exceções
 
 Relacionamento:
 - Indenpendente
+
+<img width="306" height="496" alt="image" src="https://github.com/user-attachments/assets/fa16e943-f4a8-4a73-8ee0-f2dd3491ad62" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC08 — Baixar Conta a Pagar
@@ -317,6 +343,9 @@ Fluxos Alternativos / Exceções:
 
 Relacionamentos:
 - Independente
+<img width="412" height="477" alt="image" src="https://github.com/user-attachments/assets/7553e1a0-3dc7-4a58-a92a-821ce9feb57f" />
+
+- 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC09 — Emitir Comprovante de Venda
@@ -342,6 +371,10 @@ Fluxos Alternativos / Exceções:
 
 Relacionamento:
 - Include: UC01, UC06 e UC08
+
+<img width="407" height="363" alt="image" src="https://github.com/user-attachments/assets/cffe1e60-23a9-4a9b-9598-b9af724180fc" />
+
+  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 UC10 — Monitorar Produtos com Baixo Estoque
@@ -370,7 +403,5 @@ Fluxos Alternativos / Exceções:
 Relacionamentos:
 - Include: UC01, UC06 e UC07
 
----
-
-> Repita essa estrutura para **todos os seus casos de uso** (mínimo 10).
+<img width="320" height="475" alt="image" src="https://github.com/user-attachments/assets/84d5096f-5771-486b-9f97-21150b476cd4" />
 
